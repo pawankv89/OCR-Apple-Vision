@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D447CC9823DB68D4004D3BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC9723DB68D4004D3BED /* AppDelegate.swift */; };
+		D447CC9A23DB68D4004D3BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC9923DB68D4004D3BED /* SceneDelegate.swift */; };
+		D447CC9C23DB68D4004D3BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CC9B23DB68D4004D3BED /* ViewController.swift */; };
+		D447CC9F23DB68D4004D3BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D447CC9D23DB68D4004D3BED /* Main.storyboard */; };
+		D447CCA123DB68D6004D3BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D447CCA023DB68D6004D3BED /* Assets.xcassets */; };
+		D447CCA423DB68D6004D3BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D447CCA223DB68D6004D3BED /* LaunchScreen.storyboard */; };
+		D447CCAF23DB68D6004D3BED /* OCR_Apple_VisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CCAE23DB68D6004D3BED /* OCR_Apple_VisionTests.swift */; };
+		D447CCBA23DB68D6004D3BED /* OCR_Apple_VisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CCB923DB68D6004D3BED /* OCR_Apple_VisionUITests.swift */; };
+		D447CCC923DB690D004D3BED /* ReadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D447CCC723DB690D004D3BED /* ReadCell.xib */; };
+		D447CCCA23DB690D004D3BED /* ReadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447CCC823DB690D004D3BED /* ReadCell.swift */; };
+		D447CCD223DB6933004D3BED /* Pawan_de.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CCCC23DB6933004D3BED /* Pawan_de.png */; };
+		D447CCD323DB6933004D3BED /* Pawan_text.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D447CCCD23DB6933004D3BED /* Pawan_text.rtf */; };
+		D447CCD423DB6933004D3BED /* Pawan_en.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CCCE23DB6933004D3BED /* Pawan_en.png */; };
+		D447CCD523DB6933004D3BED /* Pawan_fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CCCF23DB6933004D3BED /* Pawan_fr.png */; };
+		D447CCD623DB6933004D3BED /* Pawan_jp.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CCD023DB6933004D3BED /* Pawan_jp.png */; };
+		D447CCD723DB6933004D3BED /* Pawan_ru.png in Resources */ = {isa = PBXBuildFile; fileRef = D447CCD123DB6933004D3BED /* Pawan_ru.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D447CCAB23DB68D6004D3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D447CC8C23DB68D4004D3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D447CC9323DB68D4004D3BED;
+			remoteInfo = "OCR-Apple-Vision";
+		};
+		D447CCB623DB68D6004D3BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D447CC8C23DB68D4004D3BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D447CC9323DB68D4004D3BED;
+			remoteInfo = "OCR-Apple-Vision";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D447CC9423DB68D4004D3BED /* OCR-Apple-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR-Apple-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CC9723DB68D4004D3BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D447CC9923DB68D4004D3BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D447CC9B23DB68D4004D3BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D447CC9E23DB68D4004D3BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D447CCA023DB68D6004D3BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D447CCA323DB68D6004D3BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D447CCA523DB68D6004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CCAA23DB68D6004D3BED /* OCR-Apple-VisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR-Apple-VisionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CCAE23DB68D6004D3BED /* OCR_Apple_VisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR_Apple_VisionTests.swift; sourceTree = "<group>"; };
+		D447CCB023DB68D6004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CCB523DB68D6004D3BED /* OCR-Apple-VisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCR-Apple-VisionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D447CCB923DB68D6004D3BED /* OCR_Apple_VisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR_Apple_VisionUITests.swift; sourceTree = "<group>"; };
+		D447CCBB23DB68D6004D3BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D447CCC723DB690D004D3BED /* ReadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadCell.xib; sourceTree = "<group>"; };
+		D447CCC823DB690D004D3BED /* ReadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadCell.swift; sourceTree = "<group>"; };
+		D447CCCC23DB6933004D3BED /* Pawan_de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_de.png; sourceTree = "<group>"; };
+		D447CCCD23DB6933004D3BED /* Pawan_text.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Pawan_text.rtf; sourceTree = "<group>"; };
+		D447CCCE23DB6933004D3BED /* Pawan_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_en.png; sourceTree = "<group>"; };
+		D447CCCF23DB6933004D3BED /* Pawan_fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_fr.png; sourceTree = "<group>"; };
+		D447CCD023DB6933004D3BED /* Pawan_jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_jp.png; sourceTree = "<group>"; };
+		D447CCD123DB6933004D3BED /* Pawan_ru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pawan_ru.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D447CC9123DB68D4004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCA723DB68D6004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCB223DB68D6004D3BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D447CC8B23DB68D4004D3BED = {
+			isa = PBXGroup;
+			children = (
+				D447CC9623DB68D4004D3BED /* OCR-Apple-Vision */,
+				D447CCAD23DB68D6004D3BED /* OCR-Apple-VisionTests */,
+				D447CCB823DB68D6004D3BED /* OCR-Apple-VisionUITests */,
+				D447CC9523DB68D4004D3BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D447CC9523DB68D4004D3BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D447CC9423DB68D4004D3BED /* OCR-Apple-Vision.app */,
+				D447CCAA23DB68D6004D3BED /* OCR-Apple-VisionTests.xctest */,
+				D447CCB523DB68D6004D3BED /* OCR-Apple-VisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D447CC9623DB68D4004D3BED /* OCR-Apple-Vision */ = {
+			isa = PBXGroup;
+			children = (
+				D447CCCB23DB6933004D3BED /* Resources */,
+				D447CC9723DB68D4004D3BED /* AppDelegate.swift */,
+				D447CC9923DB68D4004D3BED /* SceneDelegate.swift */,
+				D447CC9B23DB68D4004D3BED /* ViewController.swift */,
+				D447CCC823DB690D004D3BED /* ReadCell.swift */,
+				D447CCC723DB690D004D3BED /* ReadCell.xib */,
+				D447CC9D23DB68D4004D3BED /* Main.storyboard */,
+				D447CCA023DB68D6004D3BED /* Assets.xcassets */,
+				D447CCA223DB68D6004D3BED /* LaunchScreen.storyboard */,
+				D447CCA523DB68D6004D3BED /* Info.plist */,
+			);
+			path = "OCR-Apple-Vision";
+			sourceTree = "<group>";
+		};
+		D447CCAD23DB68D6004D3BED /* OCR-Apple-VisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D447CCAE23DB68D6004D3BED /* OCR_Apple_VisionTests.swift */,
+				D447CCB023DB68D6004D3BED /* Info.plist */,
+			);
+			path = "OCR-Apple-VisionTests";
+			sourceTree = "<group>";
+		};
+		D447CCB823DB68D6004D3BED /* OCR-Apple-VisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D447CCB923DB68D6004D3BED /* OCR_Apple_VisionUITests.swift */,
+				D447CCBB23DB68D6004D3BED /* Info.plist */,
+			);
+			path = "OCR-Apple-VisionUITests";
+			sourceTree = "<group>";
+		};
+		D447CCCB23DB6933004D3BED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D447CCCC23DB6933004D3BED /* Pawan_de.png */,
+				D447CCCD23DB6933004D3BED /* Pawan_text.rtf */,
+				D447CCCE23DB6933004D3BED /* Pawan_en.png */,
+				D447CCCF23DB6933004D3BED /* Pawan_fr.png */,
+				D447CCD023DB6933004D3BED /* Pawan_jp.png */,
+				D447CCD123DB6933004D3BED /* Pawan_ru.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D447CC9323DB68D4004D3BED /* OCR-Apple-Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CCBE23DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-Vision" */;
+			buildPhases = (
+				D447CC9023DB68D4004D3BED /* Sources */,
+				D447CC9123DB68D4004D3BED /* Frameworks */,
+				D447CC9223DB68D4004D3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCR-Apple-Vision";
+			productName = "OCR-Apple-Vision";
+			productReference = D447CC9423DB68D4004D3BED /* OCR-Apple-Vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D447CCA923DB68D6004D3BED /* OCR-Apple-VisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CCC123DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-VisionTests" */;
+			buildPhases = (
+				D447CCA623DB68D6004D3BED /* Sources */,
+				D447CCA723DB68D6004D3BED /* Frameworks */,
+				D447CCA823DB68D6004D3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D447CCAC23DB68D6004D3BED /* PBXTargetDependency */,
+			);
+			name = "OCR-Apple-VisionTests";
+			productName = "OCR-Apple-VisionTests";
+			productReference = D447CCAA23DB68D6004D3BED /* OCR-Apple-VisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D447CCB423DB68D6004D3BED /* OCR-Apple-VisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D447CCC423DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-VisionUITests" */;
+			buildPhases = (
+				D447CCB123DB68D6004D3BED /* Sources */,
+				D447CCB223DB68D6004D3BED /* Frameworks */,
+				D447CCB323DB68D6004D3BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D447CCB723DB68D6004D3BED /* PBXTargetDependency */,
+			);
+			name = "OCR-Apple-VisionUITests";
+			productName = "OCR-Apple-VisionUITests";
+			productReference = D447CCB523DB68D6004D3BED /* OCR-Apple-VisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D447CC8C23DB68D4004D3BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D447CC9323DB68D4004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					D447CCA923DB68D6004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D447CC9323DB68D4004D3BED;
+					};
+					D447CCB423DB68D6004D3BED = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = D447CC9323DB68D4004D3BED;
+					};
+				};
+			};
+			buildConfigurationList = D447CC8F23DB68D4004D3BED /* Build configuration list for PBXProject "OCR-Apple-Vision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D447CC8B23DB68D4004D3BED;
+			productRefGroup = D447CC9523DB68D4004D3BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D447CC9323DB68D4004D3BED /* OCR-Apple-Vision */,
+				D447CCA923DB68D6004D3BED /* OCR-Apple-VisionTests */,
+				D447CCB423DB68D6004D3BED /* OCR-Apple-VisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D447CC9223DB68D4004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CCD623DB6933004D3BED /* Pawan_jp.png in Resources */,
+				D447CCA423DB68D6004D3BED /* LaunchScreen.storyboard in Resources */,
+				D447CCD723DB6933004D3BED /* Pawan_ru.png in Resources */,
+				D447CCC923DB690D004D3BED /* ReadCell.xib in Resources */,
+				D447CCD223DB6933004D3BED /* Pawan_de.png in Resources */,
+				D447CCA123DB68D6004D3BED /* Assets.xcassets in Resources */,
+				D447CC9F23DB68D4004D3BED /* Main.storyboard in Resources */,
+				D447CCD523DB6933004D3BED /* Pawan_fr.png in Resources */,
+				D447CCD323DB6933004D3BED /* Pawan_text.rtf in Resources */,
+				D447CCD423DB6933004D3BED /* Pawan_en.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCA823DB68D6004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCB323DB68D6004D3BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D447CC9023DB68D4004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CC9C23DB68D4004D3BED /* ViewController.swift in Sources */,
+				D447CCCA23DB690D004D3BED /* ReadCell.swift in Sources */,
+				D447CC9823DB68D4004D3BED /* AppDelegate.swift in Sources */,
+				D447CC9A23DB68D4004D3BED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCA623DB68D6004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CCAF23DB68D6004D3BED /* OCR_Apple_VisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D447CCB123DB68D6004D3BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D447CCBA23DB68D6004D3BED /* OCR_Apple_VisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D447CCAC23DB68D6004D3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D447CC9323DB68D4004D3BED /* OCR-Apple-Vision */;
+			targetProxy = D447CCAB23DB68D6004D3BED /* PBXContainerItemProxy */;
+		};
+		D447CCB723DB68D6004D3BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D447CC9323DB68D4004D3BED /* OCR-Apple-Vision */;
+			targetProxy = D447CCB623DB68D6004D3BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D447CC9D23DB68D4004D3BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D447CC9E23DB68D4004D3BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D447CCA223DB68D6004D3BED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D447CCA323DB68D6004D3BED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D447CCBC23DB68D6004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D447CCBD23DB68D6004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D447CCBF23DB68D6004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72NX38Y9GF;
+				INFOPLIST_FILE = "OCR-Apple-Vision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D447CCC023DB68D6004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72NX38Y9GF;
+				INFOPLIST_FILE = "OCR-Apple-Vision/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.poc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D447CCC223DB68D6004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-Apple-VisionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-Apple-VisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR-Apple-Vision.app/OCR-Apple-Vision";
+			};
+			name = Debug;
+		};
+		D447CCC323DB68D6004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-Apple-VisionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-Apple-VisionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCR-Apple-Vision.app/OCR-Apple-Vision";
+			};
+			name = Release;
+		};
+		D447CCC523DB68D6004D3BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-Apple-VisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-Apple-VisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR-Apple-Vision";
+			};
+			name = Debug;
+		};
+		D447CCC623DB68D6004D3BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OCR-Apple-VisionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.poc.OCR-Apple-VisionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OCR-Apple-Vision";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D447CC8F23DB68D4004D3BED /* Build configuration list for PBXProject "OCR-Apple-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CCBC23DB68D6004D3BED /* Debug */,
+				D447CCBD23DB68D6004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CCBE23DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CCBF23DB68D6004D3BED /* Debug */,
+				D447CCC023DB68D6004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CCC123DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-VisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CCC223DB68D6004D3BED /* Debug */,
+				D447CCC323DB68D6004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D447CCC423DB68D6004D3BED /* Build configuration list for PBXNativeTarget "OCR-Apple-VisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D447CCC523DB68D6004D3BED /* Debug */,
+				D447CCC623DB68D6004D3BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D447CC8C23DB68D4004D3BED /* Project object */;
+}
